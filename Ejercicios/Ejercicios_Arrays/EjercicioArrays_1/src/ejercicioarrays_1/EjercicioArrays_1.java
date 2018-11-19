@@ -20,8 +20,7 @@ public class EjercicioArrays_1 {
                 if (numeros[x] > cantidadMaxima)
                     cantidadMaxima = numeros
                             [x];
-        }
-          
+        }         
         JOptionPane.showMessageDialog(null,"El maximo valor  " + cantidadMaxima+ " y el mínimo "+ cantidadMinima);
     }
 }
